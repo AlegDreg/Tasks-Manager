@@ -11,7 +11,7 @@ namespace Tasks_Manager
         /// <summary>
         /// Delay in milliseconds
         /// </summary>
-        public int DelayTime { get; set; }
+        public int DelayTime { get; set; } = 0;
 
         public delegate void Action();
         public Action Task;
